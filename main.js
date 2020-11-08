@@ -20,7 +20,7 @@ client.on('ready', () => {
 
 client.on('ready', () => { client.user.setActivity('r!help for list of commands'); });
 
-client.login('Nzc0NDk0MzcyMzM4MDczNjAx.X6YmFw.bCDDLCbTVTTRBXLer6NZFfkZXTE');
+client.login('token hidden for obvious reasons');
 
 client.on('message', message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
